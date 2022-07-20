@@ -504,21 +504,25 @@ section.about{
 .textAbout{
     font-size: 2rem;
     text-align: justify;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    width: 60%;
 }
 
 section.about-main{
-    background-image: url("/images/about-main.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    padding: 300px 100px 300px 1200px;
+    /*background-image: url("/images/about-main.png");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center center;*/
+    /*background-size: cover;*/
+    /*padding: 300px 100px 300px 1200px;*/
 }
 /* about page */
 
 /* start systems */
 .systems-heading{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 10%;
     font-size: 3rem;
     color: #0C4DA2;
 }
