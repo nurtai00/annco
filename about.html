@@ -16,12 +16,13 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<!-- custom css -->
 		<link rel="stylesheet" href="css/style.css">
-
-		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+		<!-- carousel css -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css">
-
+		<!--slider css-->
+		<link rel="stylesheet" href="css/slider-gallery.css">
 	</head>
-	<body>
+
+	<body style="">
 	<!-- start preloader -->
 		<div class="preloader">
 			<div class="sk-spinner sk-spinner-rotating-plane"></div>
@@ -76,97 +77,124 @@
 		<!-- end about-->
 
 		<!-- start systems-->
-		<div class="row row-cols-1 row-cols-md-2 g-4" id="system-top-cards">
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/license-icon.png" width="15%">
-					<p class="systems-text">Licensed Software: Supply, Installation And Setup</p>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/cooling-icon.png" width="15%">
-					<p class="systems-text">Air Conditioning Of Server Rooms and Data Centers</p>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/fire-icon.png" width="15%">
-					<p class="systems-text">Labour time recoding systems, Access Control Systems, Fire and security alarm systems</p>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/db-icon.png" width="15%">
-					<p class="systems-text">Data storage and processing systems (disk arrays of 30 TB and more)</p>
-				</div>
-			</div>
+		<div class="systems-heading">
+			<h1 class="systems-heading">SYSTEMS</h1>
 		</div>
-		<div class="row row-cols-1 row-cols-md-2 g-4" id="system-middle-cards">
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/video-icon.png" width="15%">
-					<p class="systems-text">Professional network video surveillance system (IP CCTV)</p>
+		<div class="systems-block">
+			<div class="row row-cols-md-2" id="system-top-cards">
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/license-icon.png" width="15%">
+						<p class="systems-text">Licensed Software: Supply, Installation And Setup</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/cooling-icon.png" width="15%">
+						<p class="systems-text">Air Conditioning Of Server Rooms and Data Centers</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/fire-icon.png" width="15%">
+						<p class="systems-text">Labour time recoding systems, Access Control Systems, Fire and security alarm systems</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/db-icon.png" width="15%">
+						<p class="systems-text">Data storage and processing systems (disk arrays of 30 TB and more)</p>
+					</div>
 				</div>
 			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/gps-icon.png" width="15%">
-					<p class="systems-text">GPS Monitoring System</p>
+			<div class="row row-cols-md-2" id="system-middle-cards">
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/video-icon.png" width="15%">
+						<p class="systems-text">Professional network video surveillance system (IP CCTV)</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/gps-icon.png" width="15%">
+						<p class="systems-text">GPS Monitoring System</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/ip-icon.png" width="15%">
+						<p class="systems-text">PBX and IP Telephony</p>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/safe-icon.png" width="15%">
+						<p class="systems-text">Fireproof safes for the secure storage of computer media (tape, CD, DVD)</p>
+					</div>
 				</div>
 			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/ip-icon.png" width="15%">
-					<p class="systems-text">PBX and IP Telephony</p>
+			<div class="row row-cols-md-2" id="system-bottom-cards">
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/security-icon.png" width="15%">
+						<p class="systems-text">Control system for enterprise service protection, security agency</p>
+					</div>
 				</div>
-			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/safe-icon.png" width="15%">
-					<p class="systems-text">Fireproof safes for the secure storage of computer media (tape, CD, DVD)</p>
-				</div>
-			</div>
-		</div>
-		<div class="row row-cols-1 row-cols-md-2 g-4" id="system-bottom-cards">
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/security-icon.png" width="15%">
-					<p class="systems-text">Control system for enterprise service protection, security agency</p>
-				</div>
-			</div>
-			<div class="col">
-				<div class="card-gr">
-					<img src="/images/volume-icon.png" width="15%">
-					<p class="systems-text">Voice Alarm Systems, Conference Systems</p>
+				<div class="col">
+					<div class="card-gr">
+						<img src="/images/volume-icon.png" width="15%">
+						<p class="systems-text">Voice Alarm Systems, Conference Systems</p>
+					</div>
 				</div>
 			</div>
 		</div>
 		<!-- end systems-->
 
+		<!--start slider-->
+		<div class="itcss">
+			<div class="itcss__wrapper">
+				<div class="itcss__items">
+					<div class="itcss__item">
+						<img class="slider-img" src="/images/cert1.png" width="60%">
+					</div>
+					<div class="itcss__item">
+						<img class="slider-img" src="/images/cert1.png" width="60%">
+					</div>
+					<div class="itcss__item">
+						<img class="slider-img" src="/images/cert1.png" width="60%">
+					</div>
+					<div class="itcss__item">
+						<img class="slider-img" src="/images/cert1.png" width="60%">
+					</div>
+				</div>
+			</div>
+			<a class="itcss__control itcss__control_prev" href="#" role="button" data-slide="prev"></a>
+			<a class="itcss__control itcss__control_next" href="#" role="button" data-slide="next"></a>
+		</div>
+		<!--end slider-->
 
 		<!-- start footer -->
-		<footer>
-			<img src="/images/footer3.png">
-			<a class="footer-img" href="#">
-				<img src="/images/annco.png" alt="" width="200">
-			</a>
-			<h5 id="copyright">2022 ©All rights reserved</h5>
-			<div id="footer-li">
-				<ul class="footer-ul" style="list-style: none">
-					<h2 class="footer-h2" id="contact">Contact info</h2>
-					<li><img class="footer-icons" src="/images/phone-icon.png">+7(7122) 76-30-74</li>
-					<li><img class="footer-icons" src="/images/mail-icon.png">sales@annco.kz</li>
-					<li><img class="footer-icons" src="/images/location-icon.png">72B Zhangir Khan passage, Atyrau</li>
-				</ul>
-				<ul class="footer-ul" style="list-style: none">
-					<h2 class="footer-h2">Useful links</h2>
-					<li><u><a class="li" href="/index.html">Main</a></u></li>
-					<li><u><a class="li" href="/about.html">About us</a></u></li>
-					<li><u><a class="li" href="https://www.reisswolf-west.kz/">Reisswolf</a></u></li>
-				</ul>
-			</div>
-		</footer>
+	<footer>
+		<img src="/images/footer3.png">
+		<a class="footer-img" href="#">
+			<img src="/images/annco.png" alt="" width="200">
+		</a>
+		<h5 id="copyright">2022 ©All rights reserved</h5>
+		<div id="footer-li">
+			<ul class="footer-ul" style="list-style: none">
+				<h2 class="footer-h2" id="contact">Contact info</h2>
+				<li><img class="footer-icons" src="/images/phone-icon.png">+7(7122) 76-30-74</li>
+				<li><img class="footer-icons" src="/images/mail-icon.png">sales@annco.kz</li>
+				<li><img class="footer-icons" src="/images/location-icon.png">72B Zhangir Khan passage, Atyrau</li>
+			</ul>
+			<ul class="footer-ul" style="list-style: none">
+				<h2 class="footer-h2">Useful links</h2>
+				<li><u><a class="li" href="/index.html">Main</a></u></li>
+				<li><u><a class="li" href="/about.html">About us</a></u></li>
+				<li><u><a class="li" href="https://www.reisswolf-west.kz/">Reisswolf</a></u></li>
+			</ul>
+		</div>
+	</footer>
 		<!-- end footer -->
         
 		<script src="js/jquery.js"></script>
@@ -176,5 +204,16 @@
 		<script src="js/custom.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+		<script defer src="js/slider-gallery.js"></script>
+		<script>
+			document.addEventListener('DOMContentLoaded', function () {
+				// инициализация слайдера
+				var slider = new ItcSimpleSlider('.itcss', {
+					loop: true,
+					autoplay: true,
+					swipe: true
+				});
+			});
+		</script>
 	</body>
 </html>

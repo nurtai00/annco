@@ -452,6 +452,11 @@ section.about{
 /* end partners*/
 
 /* start footer */
+/*footer{*/
+/*    background-image: url("/images/footer3.png");*/
+/*    !*padding: 180px 0 180px 0;*!*/
+/*}*/
+
 #footer-li {
     position: absolute;
     left: 40%;
@@ -479,13 +484,13 @@ section.about{
 .footer-img{
     position: absolute;
     display: flex;
-    bottom: 5%;
+    bottom: 4%;
     left: 5%;
 }
 
 #copyright{
     position: absolute;
-    bottom: 4%;
+    bottom: 3%;
     left: 6%;
     color: #0C4DA2;
 }
@@ -511,6 +516,19 @@ section.about-main{
 /* about page */
 
 /* start systems */
+.systems-heading{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 3rem;
+    color: #0C4DA2;
+}
+
+.systems-block{
+    align-content: center;
+    align-items: center;
+    padding-right: 4%;
+}
+
 .card-gr{
     background-color: white;
     background-size: 100%;
