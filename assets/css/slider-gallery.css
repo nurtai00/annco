@@ -88,13 +88,13 @@ body{
 }
 
 .itcss__control_prev::before {
-    background-image: url("/images/slider-button-left.png");
+    background-image: url("/assets/images/images/slider-button-left.png");
     width: 100px;
     height: 40px;
 }
 
 .itcss__control_next::before {
-    background-image: url("/images/slider-button-right.png");
+    background-image: url("/assets/images/images/slider-button-right.png");
     width: 100px;
     height: 40px;
 }

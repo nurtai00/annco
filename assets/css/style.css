@@ -1,6 +1,6 @@
 body{
 background: #fff;
-font-family: "Netto Offc Pro";
+font-family: "Netto Offc Pro" !important;
 font-weight: 300;
 position: relative;
 width: 100%;
@@ -32,13 +32,13 @@ img {
 /* img */
 
 /* overlay */
-.overlay {
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.4);
-    padding-top: 90px;
-    padding-bottom: 90px;
-}
+/*.overlay {*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    background: rgba(0, 0, 0, 0.4);*/
+/*    padding-top: 90px;*/
+/*    padding-bottom: 90px;*/
+/*}*/
 /* overlay */
 
 /* start preloader */
@@ -118,7 +118,7 @@ img {
 
 .navbar-default .nav li a {
     color: #666;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: bold;
     height: 70px;
     line-height: 40px;
@@ -128,6 +128,7 @@ img {
 .navbar-default .nav li a:focus,
 .navbar-default .nav li a.current {
     color: #28a7e9;
+    background-color: white;
 }
 
 .navbar-default .navbar-toggle {
@@ -137,7 +138,7 @@ img {
 }
 .navbar-default .navbar-toggle .icon-bar {
     background: #28a7e9;
-    border-color: transparent;
+    /*border-color: transparent;*/
 }
 
 .navbar-default .navbar-toggle:hover,
@@ -151,7 +152,7 @@ img {
 }
 
 section.main{
-    background-image: url("/images/main3.png");
+    background-image: url("/assets/images/main3.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -164,16 +165,16 @@ section.main{
 /*start about*/
 #about-text{
     color: black;
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin-bottom: 50px;
 }
 
 section.about{
-    background-image: url("/images/about.png");
+    background-image: url("/assets/images/about.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 300px 0 300px 200px;
+    padding: 100px 0 100px 100px;
     text-align: left;
     justify-items: center;
 }
@@ -223,6 +224,7 @@ section.about{
 #archive{
     border-radius: 50px;
     background-color: #0C4DA2;
+    display: block;
 }
 
 #archive-white{
@@ -242,6 +244,7 @@ section.about{
     display: none;
     background-color: white;
     border: 10px solid #0C4DA2;
+    align-content: center;
 }
 
 #cable{
@@ -397,7 +400,7 @@ section.about{
     margin-top: 4%;
     margin-left: 1%;
     margin-right: 4%;
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .card-img{
@@ -443,8 +446,8 @@ section.about{
 }
 
 .box{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     align-items: center;
     justify-items: center;
     align-content: center;
@@ -454,20 +457,20 @@ section.about{
 /* start footer */
 /*footer{*/
 /*    background-image: url("/images/footer3.png");*/
-/*    !*padding: 180px 0 180px 0;*!*/
+/*    padding: 50px 0 350px 200px;*/
 /*}*/
 
 #footer-li {
+    margin-top: 4%;
     position: absolute;
-    left: 40%;
-    bottom: 2%;
+    left: 35%;
     color: white;
     font-size: 2rem;
     display: inline-flex;
 }
 
 .footer-ul{
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .footer-icons{
@@ -479,6 +482,7 @@ section.about{
 .footer-h2{
     font-size: 3rem;
     margin-bottom: 8%;
+    font-weight: bold;
 }
 
 .footer-img{
@@ -488,10 +492,24 @@ section.about{
     left: 5%;
 }
 
+#footer-logo{
+    position: absolute;
+    display: block;
+    top: 350%;
+    left: 5%;
+}
+
+#footer-copyright{
+    margin-top: 5%;
+    margin-left: 10%;
+    color: #0C4DA2;
+}
+
 #copyright{
     position: absolute;
     bottom: 3%;
     left: 6%;
+    margin-top: 20px;
     color: #0C4DA2;
 }
 
@@ -506,7 +524,7 @@ section.about{
     text-align: justify;
     position: absolute;
     left: 35%;
-    top: 10%;
+    margin-top: 9%;
     width: 60%;
 }
 
@@ -525,6 +543,7 @@ section.about-main{
     margin-top: 10%;
     font-size: 3rem;
     color: #0C4DA2;
+    font-weight: bold;
 }
 
 .systems-block{
@@ -625,9 +644,12 @@ section.about-main{
         width: 900px;
     }
 }
-@media (min-width: 1200px) {
+@media (max-width: 1900px) {
     .container {
         width: 1000px;
+    }
+    #footer-logo{
+        top: 380%;
     }
 }
 /* end page container */
